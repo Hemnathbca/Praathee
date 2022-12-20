@@ -11,7 +11,8 @@
   margin:0; 
   padding:0;
   box-sizing: border-box;
-  outline: none; border:none;
+  outline: none; 
+  border:none;
   text-decoration: none;
   text-transform: capitalize;
   transition:all .2s linear;
@@ -272,6 +273,7 @@ header .navbar select
     {
         padding:2rem;
       }
+      
   }
   
   @media(max-width:768px)
@@ -310,6 +312,7 @@ header .navbar select
 
     header .navbar select
     {
+
       margin: 2rem;
       padding: 2rem;
       display: block;
@@ -321,8 +324,9 @@ header .navbar select
     
     header .navbar .select
     {
-        width: 45rem;
+        width: 96.5%;
     }
+    
     footer p
     {
               text-align: center;
